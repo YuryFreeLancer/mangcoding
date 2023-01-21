@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css?_v=20230105203753" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230105203753">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="logo" class="header">
+			<div class="header__container">
+				<div class="header__inner">
+					<div class="header__logo logo">
+						<img src="img/logo-header.svg" alt="">
+					</div>
+					<div class="header__nav">
+						<ul class="header__nav-list">
+							<li class="header__nav-item">
+								<a href="" class="header__nav-link">Home</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#Course" class="header__nav-link">Course</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#About" class="header__nav-link">About Us</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#Article" class="header__nav-link">Article</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#Contact" class="header__nav-link">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header__user-buttons">
+						<a href="" data-popup="#popup-1" class="header__login-btn button">Log in</a>
+						<a href="" data-popup="#popup" class="header__reg-btn button">Register</a>
+					</div>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__inner">
+						<article class="main-block__article">
+							<div class="main-block__subtitle">Let’s Begins</div>
+							<div class="main-block__title">Let's Find The Right <span>Course</span> For you</div>
+							<div class="main-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+								dignissim, sem non convallis molestie.</div>
+							<div class="main-block__buttons">
+								<a href="" data-popup="#popup" class="main-block__reg-btn button">Register</a>
+								<a href="https://www.youtube.com/watch?v=ArBS88h1r2Q" data-fancybox data-width="1000" data-height="700" class="main-block__vid-btn">
+									<img src="img/Play-Video.svg" alt="">
+									Play Video
+								</a>
+							</div>
+						</article>
+						<div class="main-block__image-box">
+							<img src="img/Group 6.png" alt="photo">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="About" class="page__slider-block slider-block">
+				<div class="slider-block__container">
+					<div class="slider-block__inner">
+						<article class="slider-block__article">
+							<p class="slider-block__subtitle">WHAT WE GIVE</p>
+							<p class="slider-block__title">What do You Get From Us</p>
+							<p class="slider-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+								dignissim, sem non convallis molestie.</p>
+						</article>
+						<div class="slider-block__wrap-box">
+							<!-- Оболочка слайдера -->
+							<div class="slider-block__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="slider-block__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="slider-block__slide swiper-slide">
+										<div class="slide-icon">
+											<img src="img/icon-1.svg" alt="">
+										</div>
+										<p class="slide-title">Professional Teacher</p>
+										<p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+											dignissim, sem non convallis molestie.</p>
+									</div>
+									<div class="slider-block__slide swiper-slide">
+										<div class="slide-icon">
+											<img src="img/icon-2.svg" alt="">
+										</div>
+										<p class="slide-title">Course Certificate</p>
+										<p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+											dignissim, sem non convallis molestie.</p>
+									</div>
+									<div class="slider-block__slide swiper-slide">
+										<div class="slide-icon">
+											<img src="img/icon-3.svg" alt="">
+										</div>
+										<p class="slide-title">interesting learning</p>
+										<p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+											dignissim, sem non convallis molestie.</p>
+									</div>
+								</div>
+								<!-- Если нужна пагинация -->
+								<div class="swiper-pagination"></div>
+								<!-- Если нужна навигация (влево/вправо) -->
+								<div class="swiper-buttons">
+									<button type="button" class="swiper-button-prev">
+										<img src="img/arrow-l.svg" alt="">
+									</button>
+									<button type="button" class="swiper-button-next">
+										<img src="img/arrow-r.svg" alt="">
+									</button>
+								</div>
+								<!-- Если нужен скролбар -->
+								<div class="swiper-scrollbar"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="Course" class="page__people-block people-block">
+				<div class="people-block__container">
+					<div class="people-block__inner">
+						<div class="people-block__image-box">
+							<img src="img/Group 1964.png" alt="photo">
+						</div>
+						<article class="people-block__article">
+							<p class="people-block__subtitle">SELECTED COURSE</p>
+							<p class="people-block__title">People Taking Courses</p>
+							<p class="people-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+								dignissim, sem non convallis molestie.</p>
+							<div class="people-block__digits digits">
+								<div class="digits__digit">
+									<p class="digits__title">6,000</p>
+									<p class="digits__subtitle">People Views</p>
+								</div>
+								<div class="digits__digit">
+									<p class="digits__title">4,000</p>
+									<p class="digits__subtitle">User</p>
+								</div>
+								<div class="digits__digit">
+									<p class="digits__title">100</p>
+									<p class="digits__subtitle">Course</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="Article" class="page__available-block available-block">
+				<div class="available-block__container">
+					<div class="available-block__inner">
+						<div class="available-block__items-box">
+							<a href="#no_scroll" class="available-block__item">
+								<div class="available-block__item-photo">
+									<picture><source srcset="img/course-1.webp" type="image/webp"><img src="img/course-1.jpg" alt="photo"></picture>
+									<div class="available-block__item-lable">Best Course</div>
+									<div class="available-block__item-price">$ 20 USD</div>
+								</div>
+								<div class="available-block__item-wrap">
+									<div class="available-block__item-title">HTML & CSS</div>
+									<div class="available-block__item-views">1,500 Views</div>
+								</div>
+								<div class="available-block__item-videos">120 Videos</div>
+								<div class="available-block__item-teacher">2 Teacher</div>
+							</a>
+							<a href="#no_scroll" class="available-block__item">
+								<div class="available-block__item-photo">
+									<picture><source srcset="img/course-2.webp" type="image/webp"><img src="img/course-2.jpg" alt="photo"></picture>
+									<div class="available-block__item-lable">Best Course</div>
+									<div class="available-block__item-price">$ 20 USD</div>
+								</div>
+								<div class="available-block__item-wrap">
+									<div class="available-block__item-title">Photographer</div>
+									<div class="available-block__item-views">1,500 Views</div>
+								</div>
+								<div class="available-block__item-videos">100 Videos</div>
+								<div class="available-block__item-teacher">2 Teacher</div>
+							</a>
+							<a href="#no_scroll" class="available-block__item">
+								<div class="available-block__item-photo">
+									<picture><source srcset="img/course-3.webp" type="image/webp"><img src="img/course-3.jpg" alt="photo"></picture>
+									<div class="available-block__item-lable">Best Course</div>
+									<div class="available-block__item-price">$ 20 USD</div>
+								</div>
+								<div class="available-block__item-wrap">
+									<div class="available-block__item-title">JavaScript</div>
+									<div class="available-block__item-views">1,500 Views</div>
+								</div>
+								<div class="available-block__item-videos">120 Videos</div>
+								<div class="available-block__item-teacher">2 Teacher</div>
+							</a>
+							<a href="#no_scroll" class="available-block__item">
+								<div class="available-block__item-photo">
+									<picture><source srcset="img/course-4.webp" type="image/webp"><img src="img/course-4.jpg" alt="photo"></picture>
+									<div class="available-block__item-lable">Best Course</div>
+									<div class="available-block__item-price">$ 20 USD</div>
+								</div>
+								<div class="available-block__item-wrap">
+									<div class="available-block__item-title">JavaScript</div>
+									<div class="available-block__item-views">1,500 Views</div>
+								</div>
+								<div class="available-block__item-videos">100 Videos</div>
+								<div class="available-block__item-teacher">2 Teacher</div>
+							</a>
+						</div>
+						<article class="available-block__article">
+							<p class="available-block__subtitle">AVAILABLE FOR YOU</p>
+							<p class="available-block__title">Available Courses</p>
+							<p class="available-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+								dignissim, sem non convallis molestie.</p>
+							<a href="#faq" class="available-block__btn button">See all</a>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__testimonials testimonials-block">
+				<div class="testimonials-block__container">
+					<div class="testimonials-block__inner">
+						<h2 class="testimonials-block__title">Testimonials</h2>
+						<div class="testimonials-block__slider swiper">
+							<div class="testimonials-block__wrapper swiper-wrapper">
+								<div class="testimonials-block__slide swiper-slide">
+									<div class="testimonials-block__slide-inner">
+										<img class="testimonials-block__decor" src="img/Vector 10.png" alt="">
+										<div class="testimonials-block__customer">
+											<div class="testimonials-block__avatar">
+												<picture><source srcset="img/avatar-1.webp" type="image/webp"><img src="img/avatar-1.png" alt=""></picture>
+											</div>
+											<div class="testimonials-block__info">
+												<div class="testimonials-block__info-name">Friskidia</div>
+												<div class="testimonials-block__info-location">
+													Client
+												</div>
+											</div>
+										</div>
+										<div class="testimonials-block__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">5.0</div>
+										</div>
+										<p class="testimonials-block__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus.
+										</p>
+									</div>
+								</div>
+								<div class="testimonials-block__slide swiper-slide">
+									<div class="testimonials-block__slide-inner">
+										<img class="testimonials-block__decor" src="img/Vector 10.png" alt="">
+										<div class="testimonials-block__customer">
+											<div class="testimonials-block__avatar">
+												<picture><source srcset="img/avatar-2.webp" type="image/webp"><img src="img/avatar-2.png" alt=""></picture>
+											</div>
+											<div class="testimonials-block__info">
+												<div class="testimonials-block__info-name">Finkidia</div>
+												<div class="testimonials-block__info-location">
+													Client
+												</div>
+											</div>
+										</div>
+										<div class="testimonials-block__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">5.0</div>
+										</div>
+										<p class="testimonials-block__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="faq" class="page__faq-block faq-block">
+				<div class="faq-block__container">
+					<div class="faq-block__inner">
+						<h2 class="faq-block__title">Frequently Asked Questions</h2>
+						<div data-spollers data-spollers-speed="300" class="faq-block-spollers">
+							<div class="faq-block-spollers__item">
+								<button type="button" data-spoller class="faq-block-spollers__title">
+									<div class="faq-block__title-ellips"></div>
+									What will I learn?
+								</button>
+								<div class="faq-block-spollers__body">You can learn HTML and CSS.
+									Learn to make websites.
+									Practical application of basic HTML tags.
+									Learn the basic layout tools.</div>
+							</div>
+							<div class="faq-block-spollers__item">
+								<button type="button" data-spoller class="faq-block-spollers__title">
+									<div class="faq-block__title-ellips"></div>
+									How is the training
+								</button>
+								<div class="faq-block-spollers__body">Video tutorials and text lessons are provided.
+									A live broadcast format is used, where teachers analyze difficult points from theory and
+									practice.
+									Homework where you learn how to design a website or application on your own.
+									After each task, your personal mentor checks the quality of work, shares experience and tells
+									you how you can do better.
+									Preparation for the thesis or final testing.
+									As a result, a certificate of completion of the course can be issued.</div>
+							</div>
+							<div class="faq-block-spollers__item">
+								<button type="button" data-spoller class="faq-block-spollers__title">
+									<div class="faq-block__title-ellips"></div>
+									Disadvantages of free courses
+								</button>
+								<div class="faq-block-spollers__body">Disadvantages of Free Courses No incentive to learn.
+									It is often only possible to acquire basic skills.
+									Free courses do not have experienced teachers who help in learning.
+									There is no opportunity to ask a question during the course.
+									There is no control over training and the ability to analyze errors.
+									No final project.
+									You will not have portfolio work.
+									No one will offer vacancies at the end of the courses and will not help in compiling a
+									resume.</div>
+							</div>
+							<div class="faq-block-spollers__item">
+								<button type="button" data-spoller class="faq-block-spollers__title">
+									<div class="faq-block__title-ellips"></div>
+									Lorem ipsum dolor sit amet?
+								</button>
+								<div class="faq-block-spollers__body">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Minima autem, porro illo ad corrupti eum vel eos voluptas ducimus animi necessitatibus sit
+									odio, officia nostrum. Minima autem, porro illo ad corrupti eum vel eos voluptas ducimus
+									animi necessitatibus sit odio, officia nostrum.</div>
+							</div>
+							<div class="faq-block-spollers__item">
+								<button type="button" data-spoller class="faq-block-spollers__title">
+									<div class="faq-block__title-ellips"></div>
+									Lorem, ipsum dolor sit amet consectetur adipisicing?
+								</button>
+								<div class="faq-block-spollers__body">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Minima autem, porro illo ad corrupti eum vel eos voluptas ducimus animi necessitatibus sit
+									odio, officia nostrum. Minima autem, porro illo ad corrupti eum vel eos voluptas ducimus
+									animi necessitatibus sit odio, officia nostrum.</div>
+							</div>
+							<div class="faq-block-spollers__item">
+								<button type="button" data-spoller class="faq-block-spollers__title">
+									<div class="faq-block__title-ellips"></div>
+									Lorem ipsum dolor sit?
+								</button>
+								<div class="faq-block-spollers__body">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Minima autem, porro illo ad corrupti eum vel eos voluptas ducimus animi necessitatibus sit
+									odio, officia nostrum. Minima autem, porro illo ad corrupti eum vel eos voluptas ducimus
+									animi necessitatibus sit odio, officia nostrum.</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="page__map-block map-block">
+				<div class="map-block__container">
+					<div class="map-block__inner">
+						<iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8846.465144451218!2d45.034103915960436!3d53.22362968852938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4141012825323d3d%3A0x7e8260db6fdd70c5!2z0YPQuy4g0JrQu9Cw0YDRiyDQptC10YLQutC40L0sINCf0LXQvdC30LAsINCf0LXQvdC30LXQvdGB0LrQsNGPINC-0LHQuy4sIDQ0MDA2Nw!5e0!3m2!1sru!2sru!4v1672901058356!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</section>
+			<section class="main__image-bg" id="">
+				<div class="container">
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__inner">
+					<div class="footer__social">
+						<a href="#logo"><img class="footer__social-logo" src="img/logo-footer.svg" alt=""><a>
+								<p class="footer__social-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis, justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor dolor augue et lectus. </p>
+								<img class="footer__social-icon" src="img/facebook.svg" alt="">
+								<img class="footer__social-icon" src="img/twetter.svg" alt="">
+								<img class="footer__social-icon" src="img/linkedin.svg" alt="">
+								<img class="footer__social-icon" src="img/instagram.svg" alt="">
+					</div>
+					<div class="footer__spollers-wrap">
+						<div data-spollers="479.98,max" class="footer-spollers">
+							<div class="footer-spollers__item">
+								<button type="button" data-spoller class="footer-spollers__title">Home</button>
+								<div class="footer-spollers__body">
+									<p>Product</p>
+									<p>Course</p>
+									<p>About Us</p>
+									<p>Log in</p>
+								</div>
+							</div>
+							<div class="footer-spollers__item">
+								<button type="button" data-spoller class="footer-spollers__title">Course</button>
+								<div class="footer-spollers__body">
+									<p>HTMK & CSS</p>
+									<p>Javascript</p>
+									<p>Fotographer</p>
+									<p>Desain Grafis</p>
+								</div>
+							</div>
+							<div class="footer-spollers__item">
+								<button type="button" data-spoller class="footer-spollers__title">Article</button>
+								<div class="footer-spollers__body">
+									<p>New</p>
+									<p>Old</p>
+									<p>Trend</p>
+									<p>Popular</p>
+								</div>
+							</div>
+							<div class="footer-spollers__item" id="Contact">
+								<button type="button" data-spoller class="footer-spollers__title">Contact Us</button>
+								<div class="footer-spollers__body">
+									<p>CCdoc123@gmail.com</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20230105203753"></script>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<form class="contacts__form">
+						<label class="contacts__form-label">
+
+							<input name="name" type="text" class="contacts__form-input" placeholder="Your full name" required>
+						</label>
+						<label class="contacts__form-label">
+
+							<input name="email" type="email" class="contacts__form-input" placeholder="Your email" required>
+						</label>
+
+						<label class="contacts__form-label">
+							<input name="text" type="text" class="contacts__form-input" placeholder="Message" required>
+						</label>
+						<label class="contacts__checkbox-label">
+							<div class="contacts__form-checkbox">
+								<input class="contacts__form-default" type="checkbox" required>
+								<span class="contacts__form-custom"></span>
+							</div>
+							I agree to receive communications from Finsweet
+						</label>
+						<button type="submit" class="contacts__form-btn button">Send message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-1" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<form class="contacts__form">
+						<h2 class="popup-title">Login to your account</h2>
+						<label class="contacts__form-label">
+							Email Address*
+							<input name="email" type="email" class="contacts__form-input" placeholder="" required>
+						</label>
+						<label class="contacts__form-label">
+							Password*
+							<input name="text" type="password" class="contacts__form-input" placeholder="" required>
+						</label>
+						<label class="contacts__checkbox-label">
+							<div class="contacts__form-checkbox">
+								<input class="contacts__form-default" type="checkbox" required>
+								<span class="contacts__form-custom"></span>
+							</div>
+							Keep me logged in
+						</label>
+						<button type="submit" class="contacts__form-btn button">Sign in</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230105203753"></script>
+</body>
+
+</html>
